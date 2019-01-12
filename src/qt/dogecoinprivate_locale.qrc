@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/dogecoinprivate_bg.qm</file>
+        <file alias="ca">locale/dogecoinprivate_ca.qm</file>
+        <file alias="cs">locale/dogecoinprivate_cs.qm</file>
+        <file alias="da">locale/dogecoinprivate_da.qm</file>
+        <file alias="de">locale/dogecoinprivate_de.qm</file>
+        <file alias="en">locale/dogecoinprivate_en.qm</file>
+        <file alias="en_US">locale/dogecoinprivate_en_US.qm</file>
+        <file alias="eo">locale/dogecoinprivate_eo.qm</file>
+        <file alias="es">locale/dogecoinprivate_es.qm</file>
+        <file alias="es_ES">locale/dogecoinprivate_es_ES.qm</file>
+        <file alias="fi">locale/dogecoinprivate_fi.qm</file>
+        <file alias="fr_FR">locale/dogecoinprivate_fr_FR.qm</file>
+        <file alias="hi_IN">locale/dogecoinprivate_hi_IN.qm</file>
+        <file alias="hr">locale/dogecoinprivate_hr.qm</file>
+        <file alias="hr_HR">locale/dogecoinprivate_hr_HR.qm</file>
+        <file alias="it">locale/dogecoinprivate_it.qm</file>
+        <file alias="ja">locale/dogecoinprivate_ja.qm</file>
+        <file alias="ko_KR">locale/dogecoinprivate_ko_KR.qm</file>
+        <file alias="lt_LT">locale/dogecoinprivate_lt_LT.qm</file>
+        <file alias="nl">locale/dogecoinprivate_nl.qm</file>
+        <file alias="pl">locale/dogecoinprivate_pl.qm</file>
+        <file alias="pt">locale/dogecoinprivate_pt.qm</file>
+        <file alias="pt_BR">locale/dogecoinprivate_pt_BR.qm</file>
+        <file alias="ro_RO">locale/dogecoinprivate_ro_RO.qm</file>
+        <file alias="ru">locale/dogecoinprivate_ru.qm</file>
+        <file alias="sk">locale/dogecoinprivate_sk.qm</file>
+        <file alias="sv">locale/dogecoinprivate_sv.qm</file>
+        <file alias="tr">locale/dogecoinprivate_tr.qm</file>
+        <file alias="uk">locale/dogecoinprivate_uk.qm</file>
+        <file alias="vi">locale/dogecoinprivate_vi.qm</file>
+        <file alias="zh_CN">locale/dogecoinprivate_zh_CN.qm</file>
+        <file alias="zh_TW">locale/dogecoinprivate_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+# /etc/conf.d/dogecoinprivated: config file for /etc/init.d/dogecoinprivated
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/dogecoinprivate/dogecoinprivate.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/dogecoinprivated"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dogecoinprivated.pid"
+
+# Where to write dogecoinprivated data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/dogecoinprivated"
+
+# User and group to own dogecoinprivated process
+#BITCOIND_USER="dogecoinprivate"
+#BITCOIND_GROUP="dogecoinprivate"
+
+# Path to dogecoinprivated executable
+#BITCOIND_BIN="/usr/bin/dogecoinprivated"
+
+# Nice value to run dogecoinprivated under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

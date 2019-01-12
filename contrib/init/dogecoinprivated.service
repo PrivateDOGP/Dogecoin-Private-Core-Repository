@@ -1,0 +1,26 @@
+[Unit]
+Description=DOGP's distributed currency daemon
+After=network.target
+
+[Service]
+User=dogecoinprivate
+Group=dogecoinprivate
+
+Type=forking
+PIDFile=/var/lib/dogecoinprivated/dogecoinprivated.pid
+
+ExecStart=/usr/bin/dogecoinprivated -daemon -pid=/var/lib/dogecoinprivated/dogecoinprivated.pid \
+          -conf=/etc/dogecoinprivate/dogecoinprivate.conf -datadir=/var/lib/dogecoinprivated
+
+ExecStop=-/usr/bin/dogecoinprivate-cli -conf=/etc/dogecoinprivate/dogecoinprivate.conf \
+         -datadir=/var/lib/dogecoinprivated stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
