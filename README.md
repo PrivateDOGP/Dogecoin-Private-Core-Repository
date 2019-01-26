@@ -1,7 +1,12 @@
 Dogecoin Private Core Repository
 =====================================
 
-DOGP is an open source crypto-currency focused on fast private transactions with low transaction fees & environmental footprint.  It utilizes a custom Proof of Stake protocol for securing its network. The goal of DOGP is to achieve a decentralized sustainable crypto currency with near instant full-time private transactions, fair governance and community intelligence.
+<img src="https://privatedogp.github.io/new.png">
+
+DOGP is an open source crypto-currency focused fun! The doge has black sunglasses now which means fast private transactions with low transaction fees & environmental footprint.  It utilizes a custom Proof of Stake protocol for securing its network. The goal of DOGP .. hhmmmmm :0
+
+Much Premine means much giveaways, bounties and airdrops!
+
 - Anonymized transactions using the Zerocoin Protocol.
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Masternode technology integrated and ready for activation with 10,000 DOGP collateral.
