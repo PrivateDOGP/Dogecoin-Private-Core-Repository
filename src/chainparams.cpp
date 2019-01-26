@@ -155,8 +155,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x984a0f836766f0b9c66389250f17653b3596324a30fbfdd59b279aab7621e14b"));
 
         vFixedSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("duckdns.org", "dogpnode1.duckdns.org")); // Primary DNS Seeder Nodes
-        vSeeds.push_back(CDNSSeedData("duckdns.org", "dogpnode2.duckdns.org")); // Primary DNS Seeder Nodes
+        vSeeds.push_back(CDNSSeedData("DOGP Node 1", "95.179.179.67"));
+        vSeeds.push_back(CDNSSeedData("DOGP Node 2", "199.247.31.7"));
+        vSeeds.push_back(CDNSSeedData("DOGP Node 3", "140.82.57.187"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
